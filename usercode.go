@@ -1,7 +1,6 @@
 package main
 
 import (
-        "errors"
 	"context"
 	"github.com/corezoid/gitcall-go-runner/gitcall"
 )
