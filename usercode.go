@@ -1,6 +1,7 @@
 package main
 
 import (
+        "errors"
 	"context"
 	"github.com/corezoid/gitcall-go-runner/gitcall"
 )
@@ -13,7 +14,7 @@ func usercode(_ context.Context, data map[string]interface{}) error {
 		data["test1"] = 123
 	}
 
-	return nil
+	return errors.New("my new error")
 }
 
 func main() {
