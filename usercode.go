@@ -14,7 +14,7 @@ func usercode(_ context.Context, data map[string]interface{}) error {
 		data["test1"] = 123
 	}
 
-	return errors.New("my new error")
+	return nil
 }
 
 func main() {
