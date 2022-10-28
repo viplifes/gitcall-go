@@ -9,7 +9,7 @@ func usercode(_ context.Context, data map[string]interface{}) error {
 
 	data["hello"] = "Hello world 2"
 	
-	if data["key1"] == "val1 {
+	if data["key1"] == "val1" {
 		data["test1"] = 123
 	}
 
